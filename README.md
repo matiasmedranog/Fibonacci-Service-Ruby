@@ -5,7 +5,7 @@ Rest Service - Ruby - Fibonacci serie
 
 Execute this as Ruby Application:
 ```
-
+ruby FibonacciHttp.rb
 ```
 
 ----------------------------------------
