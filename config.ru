@@ -1,0 +1,3 @@
+require './fibonacci'
+
+run Fibonacci

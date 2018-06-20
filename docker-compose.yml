@@ -1,0 +1,7 @@
+version: '3'
+services:
+  fibonacciruby:
+    build: .
+    command: bundle exec ruby Fibonacci.rb s  -p 4567 -o '127.0.0.1' 
+    ports:
+     - "4567:4567"
