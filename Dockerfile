@@ -5,5 +5,5 @@ WORKDIR /app
 COPY . /app
 RUN bundle install --binstubs
 COPY . .
-EXPOSE 4567
-CMD ["bundle", "exec", "ruby", "Fibonacci.rb", "-p", "4567", "-o", "0.0.0.0"]
+EXPOSE 3003 
+CMD ["bundle", "exec", "ruby", "Fibonacci.rb", "-p", "3003", "-o", "0.0.0.0"]
